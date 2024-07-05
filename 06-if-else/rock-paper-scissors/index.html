@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>06-rock-paper-scissors</title>
+</head>
+
+<body>
+    <div id="mastercontainer">
+        <div id="container">
+            <h1>Rock Paper Scissors</h1>
+            <button class="btn" onclick="choice('rock');">Rock</button>
+            <button class="btn" onclick="choice('paper');">Paper</button>
+            <button class="btn" onclick="choice('scissors');">Scissors</button>
+            <br>
+            <p >Wins : <span id="wins">0</span></p>
+            <p >loses : <span id="loses">0</span></p>
+            <p >Draws : <span id="draws">0</span></p>
+            <br>
+            <button onclick="reset();">Reset</button>
+        </div>
+    </div>
+</body>
+
+</html>

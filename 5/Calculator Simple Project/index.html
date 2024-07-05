@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>05-Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="masterContainer">
+        <h1>Calculator</h1>
+        <div class="container" id="nums">
+            <button onclick="num('1');">
+                1
+            </button>
+            <button onclick="num('2');">
+                2
+            </button>
+            <button onclick="num('3');">
+                3
+            </button>
+            <br>
+            <button onclick="num('4');">
+                4
+            </button>
+            <button onclick="num('5');">
+                5
+            </button>
+            <button onclick="num('6');">
+                6
+            </button>
+            <br>
+            <button onclick="num('7');">
+                7
+            </button>
+            <button onclick="num('8');">
+                8
+            </button>
+            <button onclick="num('9');">
+                9
+            </button>
+            <br>
+            <button onclick="num('0');" id="zero">
+                0
+            </button>
+        </div>
+        <div class="container" id="symbols">
+            <button onclick="num(' + ');">
+                +
+            </button>
+            <button onclick="num(' - ');">
+                -
+            </button>
+            <button onclick="num(' * ');">
+                *
+            </button>
+            <button onclick="num(' / ');">
+                /
+            </button>
+        </div>
+        <div class="container" id="result">
+            <button onclick="calculate();">
+                =
+            </button>
+            <button onclick="reset();">
+                Clear
+            </button>
+            <br>
+            <p id="output">
+                ___________
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>

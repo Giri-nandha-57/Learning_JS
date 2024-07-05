@@ -1,0 +1,45 @@
+body {
+    font-family: arial;
+    background-color: lightgrey;
+}
+
+#container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mastercontainer {
+    text-align: center;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+button {
+    padding: 10px;
+    background-color: black;
+    color: rgb(241, 238, 238);
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: active 0.2s;
+}
+
+button:active {
+    background-color: rgb(49, 48, 48);
+}
+
+p {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}

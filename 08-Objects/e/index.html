@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>08-E</title>
+</head>
+
+<body>
+    <script>
+        const product1 = {
+            name: 'socks',
+            price: 1049
+        };
+        product1.price += 0;
+        product1['delivery-time'] = '3 days';
+        const product2 = {
+            name: 'socks',
+            price: 1049
+        }
+
+        console.log(comparePrice(product1, product2));
+        console.log(isSameProduct(product1, product2));
+
+        function comparePrice(pr1, pr2) {
+            let result = pr1.price < pr2.price ? pr1.price : pr2.price;
+            return result;
+        }
+
+        function isSameProduct(pr1, pr2) {
+            let names = pr1.name === pr2.name ? true : false;
+            let prices = pr1.price === pr2.price ? true : false;
+
+            let result = names && prices ? true : false;
+
+            return result;
+        }
+    </script>
+</body>
+
+</html>

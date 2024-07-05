@@ -1,0 +1,33 @@
+* {
+    font-family: arial;
+    font-weight: 600;
+}
+
+.btn {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.container {
+    padding-left: 10px;
+}
+
+#cart {
+    background-color: yellow;
+}
+
+#cart:hover {
+    cursor: pointer;
+}
+
+#buy {
+    background-color: orange;
+}
+
+#buy:hover {
+    cursor: pointer
+}

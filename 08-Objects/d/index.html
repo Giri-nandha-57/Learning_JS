@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>08-D</title>
+</head>
+
+<body>
+    <script>
+        const product1 = {
+            name: 'BasketBall',
+            price: 2095
+        };
+        product1.price += 500;
+        product1['delivery-time'] = '3 days';
+        const product2 = {
+            name: 'socks',
+            price: 1049
+        }
+
+        console.log(comparePrice(product1, product2));
+
+        function comparePrice(pr1, pr2) {
+            let result = pr1.price < pr2.price ? pr1.price : pr2.price;
+            return result;
+        }
+    </script>
+</body>
+
+</html>

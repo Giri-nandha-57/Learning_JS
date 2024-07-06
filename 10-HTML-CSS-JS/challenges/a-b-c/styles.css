@@ -1,0 +1,39 @@
+.container {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+
+* {
+    font-family: Arial;
+}
+
+button {
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.amazon {
+    background-color: rgb(250, 220, 51);
+    color: black;
+    padding: 10px 55px;
+    border-radius: 50px;
+    border-style: none;
+}
+
+.uber {
+    padding: 10px 30px;
+    border-style: none;
+    border-radius: 7px;
+    margin: 7px;
+}
+
+#uber1 {
+    background-color: black;
+    color: white;
+}
+
+#uber2 {
+    background-color: rgb(230, 230, 230);
+}

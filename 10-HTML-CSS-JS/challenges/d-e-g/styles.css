@@ -1,0 +1,25 @@
+.container {
+    display: inline-block;
+    font-family: arial;
+    vertical-align: top;
+    margin: 10px;
+}
+
+button {
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn {
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: rgb(230, 230, 230);
+    color: black;
+}
+
+.toggle-on {
+    background-color: black;
+    color: rgb(230, 230, 230);
+}

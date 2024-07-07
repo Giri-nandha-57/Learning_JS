@@ -1,0 +1,16 @@
+#red {
+    color: red;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: green;
+    border-style: none;
+}
+
+.inp {
+    font-size: 15px;
+    padding: 12px 15px;
+}
